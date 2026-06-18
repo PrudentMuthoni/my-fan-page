@@ -2,18 +2,16 @@
 
 import { useState } from "react";
 
-export default function LikeButton() {
-  const [liked, setLiked] = useState(false);
-  const [added, setCart] = useState(false);
+export default function Cart() {
+    const [added, setCart] = useState(false);
 
   return (
-    <button
-      onClick={(e) => {
+    <button onClick={(e)=>{
         e.preventDefault()
         e.stopPropagation()
-        setLiked(!liked);
-      }}
-      style={{
+        setCart(!added);
+    }}
+    style={{
         width: "150px",
         height: "32px",
         borderRadius: "10px",
@@ -21,14 +19,11 @@ export default function LikeButton() {
         color: "White",
         fontSize: "15px",
       }}
-    >
-      {liked ? "❤️ Liked" : "🤍 Like"}
+>
+      {added ? " 🛒Added to Cart" : " 🤸Remove from Cart"}
     </button>
 
-    
-
-   
   );
 }
 
- 
+

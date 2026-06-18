@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Card.module.css";
 import LikeButton from "./LikeButton";
+import Cart from "./Cart";
 
 export default function Card({ name, blurb, rating, image}) {
   return (

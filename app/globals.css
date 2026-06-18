@@ -17,5 +17,17 @@ body {
 h1 {
   font-size: 2.5rem;
 }
+.navigation{
+  width: 100%;
+  height: 50px;
+  background-color: #5E1914;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 10px;
+  justify-self: space-between;
 
+}
   
