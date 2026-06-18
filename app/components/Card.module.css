@@ -1,0 +1,32 @@
+.card {
+  background: #5E1914;
+  color: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+.image img{ 
+   height: 500;
+   width: 100vw; 
+   object-fit: cover;
+   }
+
+.image { 
+  height: 400px; 
+  width: 100%; 
+}
+.stars { color: #f5a623; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
