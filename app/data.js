@@ -18,7 +18,7 @@ export const items = [
     name: "Tomford",
     blurb: "7 inches",
     rating: 4,
-    image: "/Hermes.jpeg",
+    image: "/tommy.jpeg",
   },
   {
     id: 4,
