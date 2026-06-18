@@ -5,26 +5,18 @@ import Link from "next/link";
 export default function CardGrid({ items }) {
   return (
     <div className={styles.grid}>
-      {items.map((items) => (
+      {items.map((item) => (
         <Card
-          key={items.id}
-          name={items.name}
-          blurb={items.blurb}
-          rating={items.rating}
-          image={items.image}
-          
+          key={item.id}
+          name={item.name}
+          blurb={item.blurb}
+          rating={item.rating}
+          image={item.image}
         />
-        
-        
       ))}
-      
-  
     </div>
-    
   );
-  <Link href={"/faves/" + items.id} key={items.id}>
-  <Card name={items.name} blurb={items.blurb} rating={items.rating} emoji={items.emoji} />
+  <Link href={"/faves/" + item.id} key={item.id}>
+  <Card name={item.name} blurb={item.blurb} rating={item.rating} emoji={item.emoji} />
 </Link>
-  
 }
-    
