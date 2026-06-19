@@ -3,12 +3,12 @@
   color: white;
   border-radius: 16px;
   padding: 1.5rem;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 14px rgba(243, 5, 5, 0.06);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 24px rgba(233, 6, 169, 0.12);
 }
 .image img{ 
    height: 500;
@@ -20,7 +20,9 @@
   height: 400px; 
   width: 100%; 
 }
-.stars { color: #f5a623; }
+.stars { 
+  color: #f5a623;
+ }
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));

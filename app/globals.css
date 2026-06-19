@@ -12,10 +12,12 @@ body {
   background-image: url(../public/bg.jpeg);
   background-size: cover;
   padding: 2rem;
+  text-align: center;
 }
 
 h1 {
   font-size: 2.5rem;
+  align-items: center;
 }
 .navigation{
   width: 100%;
@@ -28,6 +30,28 @@ h1 {
   padding: 2rem;
   border-radius: 10px;
   justify-self: space-between;
+
+}
+.about{
+  height: 400px;
+  width:900px ;
+  top: 40px;
+  left: 450px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color:#5E1914;
+  border-radius: 15px;
+
+
+}
+.about h1, p{
+  position: relative;
+  display: flex;
+  flex-direction: column;
 
 }
   

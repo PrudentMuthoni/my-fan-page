@@ -7,6 +7,9 @@ export default function Nav() {
       <Link href="/" style={{textDecoration:"none", color: "white", fontSize:"20px"}} > 🏠Home</Link>
       <Link href="/about" style={{textDecoration:"none", color: "white", fontSize:"20px"}}> About</Link>
     </nav>
+    <div>
+      <Link href={"/"}></Link>
+    </div>
     </div>
     
   );

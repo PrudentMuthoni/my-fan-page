@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <Nav />
         {children}
         <footer style={{ marginTop: "3rem", textAlign: "center", color: "#888" }}>
-          Built with Next.js 💙 heart
+          Built by <span style={{color: "pink"}}><i>Prudent Muthoni</i></span> with Next.js 💙 heart
         </footer>
       </body>
     </html>
